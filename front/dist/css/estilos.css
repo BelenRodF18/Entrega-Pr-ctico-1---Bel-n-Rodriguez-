@@ -1,0 +1,40 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    background-color: #fafbfc;
+}
+
+.round-btn {
+    border-radius: 20px;
+}
+
+.max-w-xl {
+    max-width: 600px;
+}
+
+.card-hover {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-radius: 12px;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.elemento-catalogo {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.text-primary {
+    color: #2b6cb0 !important;
+}
+
+.btn-primary {
+    background-color: #2b6cb0 !important;
+    border-color: #2b6cb0 !important;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8 !important; 
+}
